@@ -1,9 +1,10 @@
 # factorOracle
 C source for the *factorOracle* Max external.
 
-Currently, the external is verified to run on Mac OS 10.9.5 or greater (excluding M1 Macs), in Max 7, 32-bit mode only. Basic functionality verified in Max 8; there may be issues when sending messages that open system dialogs.
+The external is verified to run in Max 7 and Max 8.
 
-Follow instructions in the [Max7 SDK](https://cycling74.com/downloads/sdk) documentation to build factorOracle.c for your architecture.
+Follow instructions in the [Max SDK](https://cycling74.com/downloads/sdk) documentation to build factorOracle.c for your architecture.
+[This](https://cycling74.com/articles/the-max-8-2-sdk-an-overview) is a helpful tutorial.
 
 ### What does it do?
 Factor oracle is a graph representing at least all of the substrings of a word. It can be built incrementally in linear time and space. A factor oracle representation of input from a live musical performance can be built in real time and parsed using a variety of heuristics to generate music in the style of the performance. 
